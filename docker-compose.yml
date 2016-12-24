@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  deploy:
+    build: .
+    volumes:
+      - ./:/deploy
+      - ~/.ssh/id_rsa:/root/.ssh/id_rsa

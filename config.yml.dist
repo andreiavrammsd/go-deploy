@@ -1,0 +1,12 @@
+projects:
+  project_prod:
+     repository: git@bitbucket.org:username/project.git
+     branch: master
+     destinations:
+       - dest@host1:/deploy/path/filename
+       - dest@host2:/deploy/path/filename
+  project_stage:
+     repository: git@bitbucket.org:username/project.git
+     branch: stage
+     destinations:
+       - dest@stage1:/deploy/path/filename
