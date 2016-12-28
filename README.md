@@ -46,8 +46,10 @@ On each run, the following actions occur:
 
 #### Other
 
-Will work only with github and bitbucket
+Will work only with github and bitbucket.
+
 If you want to get into the container, run the following in the project's root directory: docker-compose run --rm deploy bash
+
 Any changes can be done in src/deploy. Then build the deploy binary: ./build.sh
 
 #### Nice to have
