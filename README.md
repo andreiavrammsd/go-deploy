@@ -34,7 +34,6 @@ Define your projects in config.yml
 #### Usage
 
 From local machine: ./run.sh project_name
-On first use, the docker service will be built. 
 
 #### Workflow
 
